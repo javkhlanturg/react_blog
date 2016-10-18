@@ -5,8 +5,7 @@ class App extends React.Component{
     return (
       <div>
       <Header/>
-      <Content/>
-      <Footer/>
+
       </div>
     );
   }
@@ -16,19 +15,19 @@ class Header extends React.Component{
   render(){
     return(
 
-    <div class="container-fluid">
+    <div>
 
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                Menu <i class="fa fa-bars"></i>
+        <div className="navbar-header page-scroll">
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span className="sr-only">Toggle navigation</span>
+                Menu <i className="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            <a className="navbar-brand" href="index.html">Start Bootstrap</a>
         </div>
 
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul className="nav navbar-nav navbar-right">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -46,7 +45,7 @@ class Header extends React.Component{
 
     </div>
 
-    )
+    );
   }
 }
 
