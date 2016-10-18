@@ -1,17 +1,18 @@
 {
-  "name": "react",
+  "name": "tets",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^1.13.2",
+    "react-dom": "^15.3.2",
+    "react": "^15.3.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "webpack-dev-server --hot"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.1"
-  }
+  "license": "ISC"
 }
